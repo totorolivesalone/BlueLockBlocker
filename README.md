@@ -24,8 +24,7 @@ const targetSites = [
 ];
 ```
 
->Lock in , pretty please !
->
-<br/>
+Lock in , pretty please !
+
 ![isagi](https://github.com/totorolivesalone/BlueLockBlocker/blob/main/Isagi.png)
 
