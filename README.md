@@ -25,7 +25,5 @@ const targetSites = [
 ```
 
 >Lock in , pretty please !
-<div class="tenor-gif-embed" data-postid="26886040" data-share-method="host" data-aspect-ratio="1.24514" data-width="100%"><a href="https://tenor.com/view/blue-lock-isagi-yoichi-yoichi-isagi-eyes-gif-26886040">Blue Lock Isagi GIF</a>from <a href="https://tenor.com/search/blue+lock-gifs">Blue Lock GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
-
-
+![isagi](https://github.com/totorolivesalone/BlueLockBlocker/blob/main/Isagi.png)
 
