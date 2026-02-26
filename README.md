@@ -21,7 +21,8 @@ Edit `index.js` and modify the `targetSites` array:
 ```javascript
 const targetSites = [
   "yoursite.com"
-]; ```
+];
+```
 
 >Lock in , pretty please !
 ![Isagi GIF](https://tenor.com/view/blue-lock-isagi-yoichi-yoichi-isagi-eyes-gif-26886040)
