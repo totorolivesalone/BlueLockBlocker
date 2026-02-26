@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      background: #0066cc;  
+      font-family: Arial, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+    
+    .container {
+      max-width: 800px;
+      width: 100%;
+      background: white;
+      border-radius: 30px;
+      padding: clamp(20px, 5vw, 50px);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+      text-align: center;
+    }
+    
+    .image-container {
+      width: 100%;
+      max-width: 300px;
+      margin: 0 auto 30px;
+    }
+    
+    .image-container img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 20px; 
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+    
+    h1 {
+      font-size: clamp(32px, 8vw, 64px);
+      color: #0066cc;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+    
+    .message {
+      font-size: clamp(18px, 4vw, 24px);
+      color: #333;
+      margin: 20px 0;
+      line-height: 1.4;
+    }
+    
+    .blocked-site {
+      background: #f0f0f0;
+      color: #ff4444;
+      font-size: clamp(14px, 3.5vw, 18px);
+      padding: 15px;
+      border-radius: 10px;
+      margin: 20px 0;
+      word-break: break-all;
+      border: 1px solid #ddd;
+    }
+    
+    .footer {
+      margin-top: 30px;
+      font-size: clamp(12px, 3vw, 14px);
+      color: #666;
+      font-style: italic;
+    }
+    
+    /* Responsive adjustments */
+    @media (max-width: 480px) {
+      .container {
+        padding: 20px;
+      }
+      
+      .image-container {
+        max-width: 200px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="image-container">
+      <img src="Isagi.png" alt="Blue Lock" onerror="this.style.display='none'">
+    </div>
+    
+    <h1>LOCK IN!</h1>
+    
+    <div class="message">
+      You strayed from your path.
+    </div>
+    
+    <div class="blocked-site" id="siteDisplay"></div>
+    
+    <div class="footer">
+    Focus on your goals.
+    </div>
+  </div>
+
+  <script src="blocker.js"></script>
+</body>
+</html>
